@@ -1,0 +1,1 @@
+Statistic fundamental model
