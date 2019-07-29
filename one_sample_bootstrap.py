@@ -1,4 +1,4 @@
-def draw_one_sample_bootstrap(sample_a, test_mean):
+def one_sample_bootstrap(sample_a, test_mean):
 # Make an array of translated sample_a
     translated_sample_a = sample_a-force_a.mean() + test_mean
 
