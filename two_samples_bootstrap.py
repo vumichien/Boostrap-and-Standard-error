@@ -1,7 +1,7 @@
 """A two-sample bootstrap hypothesis test for difference of means"""
 import numpy as np
 
-def draw_one_sample_bootstrap(sample_a, sample_b):
+def two_samples_bootstrap(sample_a, sample_b):
 # Compute mean of all sample: mean_sample, empirical_diff_means
     sample_concat = np.concatenate(sample_a,sample_b, axis = 0)
     mean_sample = sample_concat.mean()
